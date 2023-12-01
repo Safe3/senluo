@@ -23,8 +23,8 @@
 
 
 <p align="center">
-  <a href="https://github.com/Safe3/senluo/blob/main/README.md">English</a> •
-  <a href="https://github.com/Safe3/senluo/blob/main/README_CN.md">中文</a>
+  <a href="https://github.com/Safe3/senluo/blob/main/README.md">English</a><!-- •
+  <a href="https://github.com/Safe3/senluo/blob/main/README_CN.md">中文</a>-->
 </p>
 
 
