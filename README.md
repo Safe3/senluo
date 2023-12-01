@@ -30,7 +30,7 @@
 
 ---
 
-Senluo is used for cyberspace surveying and mapping, just like many products such as NMAP, Shodan, and Centsys, but its scanning speed is more than 10 times faster than NMAP, making it easy to identify network service types with millions of ports in minutes. It also has features such as lightweight, single file, cross platform, and no additional dependencies.
+Senluo is used for cyberspace surveying and mapping, just like many products such as NMAP, Shodan, and Censys, but its scanning speed is more than 10 times faster than NMAP, making it easy to identify network service types with millions of ports in minutes. It also has features such as lightweight, single file, cross platform, and no additional dependencies.
 
 ## Features
 
