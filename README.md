@@ -43,7 +43,7 @@ Senluo is used for cyberspace surveying and mapping, just like many products suc
   <br>
 </h3>
 
- - Super fast and simple **TCP/UDP** probe based scanning
+ - Super fast and simple **ICMP/TCP/UDP** probe based scanning
  - Optimized for ease of use and **lightweight** on resources
  - Identify common network service protocols and fingerprints
  - Ultra wide range network IP and domain name scanning
