@@ -23,8 +23,8 @@
 
 
 <p align="center">
-  <a href="https://github.com/Safe3/senluo/blob/main/README.md">English</a><!-- •
-  <a href="https://github.com/Safe3/senluo/blob/main/README_CN.md">中文</a>-->
+  <a href="https://github.com/Safe3/senluo/blob/main/README.md">English</a>
+  <a href="https://github.com/Safe3/senluo/blob/main/README_CN.md">中文</a>
 </p>
 
 
@@ -64,31 +64,33 @@ This will display help for the tool. Here are all the switches it supports.
 
 
 ```console
-Usage of ./senluo:
+Usage of senluo:
   -Dn
-    	Skip domain enumerate discovery (default true)
+        skip domain enumerate discovery (default true)
   -Pn
-    	Skip host ping discovery
+        skip host ping discovery
   -c int
-    	general internal worker threads (default 10000)
+        general internal worker threads (default 10000)
   -h string
-    	hosts to scan for (comma-separated)
+        hosts to scan for (comma-separated) or file name
+  -it int
+        idle milliseconds to wait before timing out (default 2000)
   -o string
-    	file to write output to (optional)
+        file to write output to (optional) (default "target.json")
   -p string
-    	ports to scan (comma-separated)[all,top100,top1000,80,443,100-200] (default "top100")
+        ports to scan (comma-separated)[all,top100,top1000,80,443,100-200] (default "top100")
   -r int
-    	packets to send per second (default 10000)
+        packets to send per second (default 10000)
   -sV
-    	Service discovery
+        service discovery (default true)
   -t string
-    	type of port scan [tcp/udp/all] (default "all")
-  -timeout int
-    	millisecond to wait before timing out (default 2000)
+        type of port scan [tcp/udp/all] (default "all")
+  -tt int
+        total milliseconds to wait before timing out (default 60000)
   -v string
-    	display verbose output level (default "error")
+        display verbose output level (default "error")
   -version
-    	display version
+        display version
 ```
 
 ### Running Senluo
